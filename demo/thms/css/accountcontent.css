@@ -1,0 +1,285 @@
+.accounts_content{
+	display:block;
+}
+
+#top{
+	width: 100%;
+	min-height: 230px;
+}
+	#top_top{
+		float:left;
+		min-width:200px;
+	}
+		#name{
+			padding-left:90px;
+		}
+		
+		#name h2{
+			margin:0px;
+			margin-top:3px;
+			min-width: 200px;
+			color: #C88039;
+			font-size: 1.33em;
+		}
+		
+		#company{
+			color:#757575;
+			font-size: .9em;
+			padding-top:7px;
+			padding-left:90px;
+		}
+		
+		#balance1{
+			padding-top:42px;
+			padding-left:115px;
+		}
+		
+		#balance1 h3{
+			color: #333;
+			font-size: 1.3em;
+		}
+		
+		#balance2{
+			padding-top:7px;
+			padding-left:215px;
+		}
+		
+		#balance3{
+			padding-top:6px;
+			padding-left:410px;
+		}
+	
+	#top_mid{
+		float:right;
+		min-width:305px;
+	}
+	
+	#lastlogin{
+		color:#757575;
+		font-size: .9em;
+		padding-top:30px;
+	}
+	
+	#archive{
+		border-top:1px solid #ccc;
+		width:690;
+		height:38px;
+		background:url(../img/archive.png) center no-repeat;
+	}
+	
+	#archive2{
+		border-top:1px solid #ccc;
+		width:690;
+		height:38px;
+		background:url(../img/archive2.png) center no-repeat;
+	}
+	
+	#datatable{
+		margin-left:10px;
+		width:690px;
+		border: 1px solid #ccc;
+		padding: 0 1px;
+		border-collapse: separate;
+	}
+	
+	#activedate{
+		text-indent:10px;
+		padding-top:10px;
+		padding-bottom:10px;
+		width:100%;
+		height:12px;
+		background:url(../img/table_title_bg.gif) top left repeat-x;
+		background-size:1px 100%;
+	}
+	
+	#flag{
+		width:35px;
+		height:20px;
+		background:url(../img/flag.png) center no-repeat;
+	}
+	
+	#listview{
+		width:100%;
+	}
+	
+	#listview thead tr th{
+		text-indent:5px;
+		background-color: #e8f1fa;
+		border-left: 1px solid #ccc;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		font-weight: normal;
+		font-size: .9em;
+		text-align: left;
+	}
+	
+	#listview thead tr th:first-child{
+		border-left: 0;
+	}
+	
+	#listview tbody tr:nth-child(even){
+		background-color:#F3F3F3;
+	}
+	
+	#listview tbody tr td{
+		padding:3px;
+	}
+	
+	#listview tbody tr td a{
+		text-decoration:underline;
+		cursor:pointer;
+		color:#084482;
+	}
+	
+	.erow{
+		width:100%;
+		border:0px;
+		background:none;
+		color:#333;
+		overflow:hidden;
+		resize:none;
+		font-family:Arial, Helvetica, sans-serif #333; !important
+	}
+	
+	.etextarea{
+		width:100%;
+		height:80px;
+		border:0px;
+		background:none;
+		color:#333;
+		overflow:hidden;
+		resize:none;
+		font-family:Arial, Helvetica, sans-serif #333; !important
+	}
+
+/*** ADD TRANSACTIONS ***/
+#addtransaction{
+	display:none;
+	
+}
+
+.space{
+	margin:10px;
+	padding:5px;
+}
+
+
+/*** DETAILS TRANSACTIONS ***/
+#detailstransaction{
+	display:none;
+}
+
+	#topdt{
+		width:760px;
+		height:311px;
+		background:url(../img/details1.png) top no-repeat;
+	}
+	
+	#botdt{
+		width:760px;
+		height:775px;
+		background:url(../img/details2.png) top no-repeat;
+	}
+	
+	#aaddress{
+		position:relative;
+		top:200px;
+		left:450px;
+		width:150px;
+		height:150px;
+	}
+	
+	.a{
+		position:relative;
+		left:240px;
+		width:100%;
+	}
+	
+	#autn{
+		position:absolute;
+		left:262px;
+		top:467px;
+	}
+	
+	#aname{
+		top:60px;
+	}
+	
+	#aemailt{
+		top:50px;
+	}
+	
+	#aemailf{
+		top:55px;
+	}
+	
+	#atamount{
+		top:90px;
+	}
+	
+	#afamount{
+		top:87px;
+	}
+	
+	#anamount{
+		top:82px;
+	}
+	
+	
+	#aiamount{
+		top:155px;
+	}
+	
+	#aitemtype{
+		top:262px;
+	}
+	
+	#adate{
+		top:260px;
+	}
+	
+	#atime{
+		top:260px;
+	}
+	
+	#astatus{
+		top:260px;
+	}
+	
+	#adesc{
+		top:406px;
+	}
+	
+	#aclose{
+		width:150px;
+		height:20px;
+		cursor:pointer;
+		left:514px;
+		top:482px;
+	}
+	
+	#aedit{
+		position:absolute;
+		left:480px;
+		top:302px;
+		width:180px;
+		height:20px;
+		cursor:pointer;
+	}
+	
+	#saveall{
+		position:relative;
+		left:700px;
+		top:0px;
+		width:180px;
+		height:20px;
+		cursor:pointer;
+	}
+
+
+
+
+
+
+
+

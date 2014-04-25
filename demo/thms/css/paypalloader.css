@@ -1,0 +1,2849 @@
+$color10: #edf1f5;
+$color9:  #dce4ec;
+$color8:  #c9d5e2;
+$color7:  #b7c6d8;
+$color6:  #a4b8ce;
+$color5:  #90a8c4;
+$color4:  #7c99ba;
+$color3:  #6588af;
+$color2:  #3f6bab;
+$color1:  #1e55a0;
+
+
+.paypal{
+  position:relative;
+  display:block;
+  
+  transform:skew(-20deg);
+  margin:20px auto;
+  
+  border-radius:2px;
+   
+  width:34px;
+  height:24px;
+  
+  background-image: 
+    linear-gradient(-35deg, $color10 50%, $color10 0),  
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(35deg,  $color10 50%, $color10 0), 
+    linear-gradient(90deg,  $color9 50%,  $color10 0),
+    linear-gradient(-35deg, $color8 50%,  $color7 0), 
+    linear-gradient(0deg,   $color6 50%,  $color5 0),
+    linear-gradient(37deg,  $color4 50%,  $color3 0),
+    linear-gradient(90deg,  $color2 50%,  $color1 0), 
+
+    linear-gradient(-35deg, $color10 50%, $color1 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(35deg,  $color10 50%, $color10 0), 
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+    linear-gradient(-35deg, $color9 50%, $color8 0), 
+    linear-gradient(0deg,   $color7 50%, $color6 0),
+    linear-gradient(37deg,  $color5 50%, $color4 0),
+    linear-gradient(90deg,  $color3 50%, $color2 0),
+
+    linear-gradient(-35deg, $color1 50%, $color2 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(35deg,  $color10 50%, $color10 0), 
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+    linear-gradient(-35deg, $color10 50%, $color9 0), 
+    linear-gradient(0deg,   $color8 50%, $color7 0),
+    linear-gradient(37deg,  $color6 50%, $color5 0),
+    linear-gradient(90deg,  $color4 50%, $color3 0),
+
+    linear-gradient(-35deg, $color2 50%, $color3 0), 
+    linear-gradient(0deg,   $color10 50%, $color1 0),
+    linear-gradient(35deg,  $color10 50%, $color10 0), 
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color9 50%, $color8 0),
+    linear-gradient(37deg,  $color7 50%, $color6 0),
+    linear-gradient(90deg,  $color5 50%, $color4 0),
+
+    linear-gradient(-35deg, $color3 50%, $color4 0), 
+    linear-gradient(0deg,   $color1 50%, $color2 0),
+    linear-gradient(35deg,  $color10 50%, $color10 0), 
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color10 50%, $color9 0),
+    linear-gradient(37deg,  $color8 50%, $color7 0),
+    linear-gradient(90deg,  $color6 50%, $color5 0),
+
+    linear-gradient(-35deg, $color4 50%, $color5 0), 
+    linear-gradient(0deg,   $color2 50%, $color3 0),
+    linear-gradient(35deg,  $color10 50%, $color1 0), 
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(37deg,  $color9 50%, $color8 0),
+    linear-gradient(90deg,  $color7 50%, $color6 0),
+
+    linear-gradient(-35deg, $color5 50%, $color6 0), 
+    linear-gradient(0deg,   $color3 50%, $color4 0),
+    linear-gradient(35deg,  $color1 50%, $color2 0), 
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(37deg,  $color10 50%, $color9 0),
+    linear-gradient(90deg,  $color8 50%, $color7 0),
+
+
+    linear-gradient(-35deg, $color6 50%, $color7 0), 
+    linear-gradient(0deg,   $color4 50%, $color5 0),
+    linear-gradient(35deg,  $color2 50%, $color3 0), 
+    linear-gradient(90deg,  $color10 50%, $color1 0),
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(37deg,  $color10 50%, $color10 0),
+    linear-gradient(90deg,  $color9 50%, $color8 0),
+
+
+    linear-gradient(-35deg, $color7 50%, $color8 0), 
+    linear-gradient(0deg,   $color5 50%, $color6 0),
+    linear-gradient(35deg,  $color3 50%, $color4 0), 
+    linear-gradient(90deg,  $color1 50%, $color2 0),
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(37deg,  $color10 50%, $color10 0),
+    linear-gradient(90deg,  $color10 50%, $color9 0),
+
+
+    linear-gradient(-35deg, $color8 50%, $color9 0), 
+    linear-gradient(0deg,   $color6 50%, $color7 0),
+    linear-gradient(35deg,  $color4 50%, $color5 0), 
+    linear-gradient(90deg,  $color2 50%, $color3 0),
+    linear-gradient(-35deg, $color1 50%, $color10 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(37deg,  $color10 50%, $color10 0),
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+
+
+    linear-gradient(-35deg, $color9 50%, $color10 0), 
+    linear-gradient(0deg,   $color7 50%, $color8 0),
+    linear-gradient(35deg,  $color5 50%, $color6 0), 
+    linear-gradient(90deg,  $color3 50%, $color4 0),
+    linear-gradient(-35deg, $color2 50%, $color1 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(37deg,  $color10 50%, $color10 0),
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+
+
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color8 50%, $color9 0),
+    linear-gradient(35deg,  $color6 50%, $color7 0), 
+    linear-gradient(90deg,  $color4 50%, $color5 0),
+    linear-gradient(-35deg, $color3 50%, $color2 0), 
+    linear-gradient(0deg,   $color1 50%, $color10 0),
+    linear-gradient(37deg,  $color10 50%, $color10 0),
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color9 50%, $color10 0),
+    linear-gradient(35deg,  $color7 50%, $color8 0), 
+    linear-gradient(90deg,  $color5 50%, $color6 0),
+    linear-gradient(-35deg, $color4 50%, $color3 0), 
+    linear-gradient(0deg,   $color2 50%, $color1 0),
+    linear-gradient(37deg,  $color10 50%, $color10 0),
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+
+
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(35deg,  $color8 50%, $color9 0), 
+    linear-gradient(90deg,  $color6 50%, $color7 0),
+    linear-gradient(-35deg, $color5 50%, $color4 0), 
+    linear-gradient(0deg,   $color3 50%, $color2 0),
+    linear-gradient(37deg,  $color1 50%, $color10 0),
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+
+
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(35deg,  $color9 50%, $color10 0), 
+    linear-gradient(90deg,  $color7 50%, $color8 0),
+    linear-gradient(-35deg, $color6 50%, $color5 0), 
+    linear-gradient(0deg,   $color4 50%, $color3 0),
+    linear-gradient(37deg,  $color2 50%, $color1 0),
+    linear-gradient(90deg,  $color10 50%, $color10 0),
+
+    linear-gradient(-35deg, $color10 50%, $color10 0), 
+    linear-gradient(0deg,   $color10 50%, $color10 0),
+    linear-gradient(35deg,  $color10 50%, $color10 0), 
+    linear-gradient(90deg,  $color8 50%, $color9 0),
+    linear-gradient(-35deg, $color7 50%, $color6 0), 
+    linear-gradient(0deg,   $color5 50%, $color4 0),
+    linear-gradient(37deg,  $color3 50%, $color2 0),
+    linear-gradient(90deg,  $color1 50%, $color10 0);
+
+
+   
+  background-size:11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px, /*Top*/
+
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Right*/
+                  11px 8px, /*Edge*/
+                  14px 8px, /*Bottom*/
+                  11px 8px, /*Edge*/
+                  11px 8px, /*Left*/
+                  11px 8px, /*Edge*/    
+                  14px 8px; /*Top*/     
+
+
+  background-position:23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;                      
+  
+  background-repeat:no-repeat;
+   
+
+  /*new*/  
+  animation: spin 1.5s steps(1, start) infinite;
+  
+}
+
+.paypal:after, .paypal:before{
+  position:absolute;
+  content:'';
+  transform:skew(20deg);  
+}
+
+.paypal:before{
+  bottom:1.4px;
+  right:3px;
+  border:2px solid #1a4575;
+  width:3px;
+  height:6px;
+  border-radius:100% 100% 0 0;
+  box-shadow:0 0 0 1px white, 0 0 0 1px white inset;
+}
+
+.paypal:after{
+  bottom:-1px;
+  right:1.5px;
+  width:8px;
+  height:7px;
+  background:#1a4575;
+  
+  box-shadow:0 1px 0 1px white;
+}
+
+@keyframes spin{
+  6.25%{  
+    background-position:
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;  
+  }
+  12.5%{ 
+    background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+  
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;   
+  }
+  18.75%{
+    background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;  
+  }
+  25%{  
+      background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;
+  }
+  31.25%{  
+      background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;
+  }
+  37.5%{  
+      background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;
+  }
+  43.75%{
+      background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0; 
+  }
+  50%{  
+      background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0; 
+  }
+  56.25%{  
+      background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;
+  }
+  62.5%{  
+      background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;
+  }
+  68.75%{
+        background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;  
+  }
+  75%{      
+   background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;  
+  }
+  81.25%{
+      background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0;  
+  }
+  87.5%{  
+    background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0; 
+  }
+  93.75%{  
+    background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   , /*Top*/
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0; 
+  }
+  100%{  
+    background-position:-99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      
+
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+                      -99px 0,
+
+                      23.9px 0px , /*Edge*/
+                      23.9px 8px , /*Right*/
+                      23.9px 16px, /*Edge*/
+                      10.9px 16px, /*Bottom*/
+                           0 16px, /*Edge*/
+                           0 8px , /*Left*/
+                           0 0   , /*Edge*/
+                      10.9px 0   ; 
+  }
+}
+
+
+body{
+   font-family:Helvetica, sans-serif;
+}
+
+h1,p{
+  text-align:center;
+}
+
+p{
+  font-size:9pt;
+  color:gray;
+}
+
+a{
+  color:#1a4575;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}

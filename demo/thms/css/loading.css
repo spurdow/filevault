@@ -1,0 +1,26 @@
+body{
+	margin: 0 5px;
+	padding: 0;
+	color:#333;
+	font:75% normal Arial, Helvetica, sans-serif;
+}
+
+.container{
+	position:relative;
+	width:760px;
+	margin:0 auto;
+}
+
+#loading_content{
+	width:760px;
+	height:370px;
+	background:url(../img/loadingpage.png) center no-repeat;
+}
+
+#loading{
+	padding-top:390px;
+	padding-left:550px;
+	width:186px;
+	height:42px;
+	background:url(../img/icon_load_roundcorner_lock1_186x42_withlock.gif) center no-repeat;
+}
