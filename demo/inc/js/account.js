@@ -3,22 +3,40 @@ $(function(){
 		loaddata();
 		loadaccount();
 
+		var content = $(document);
+		content.delegate("#btn_save","click",function(){
+						
+			$.post( "../inc/php/request.php",{
+					cmd:"edit_balance",
+					money: $('#balance1_text').val()})
+				.done(function(data){
+					var data = $.parseJSON(data);
+					if(data.status=='success'){
+						alert('success');
+						$('#balance1').children(0).remove();
+						$('#balance1').append('<h3>$' + data.money + ' CAD</h3>')
+						$("#balance2").html('$' + data.money + ' CAD');
+						$("#balance3").html('$' + data.money + ' CAD');
+						$('#edit_b1').val('false');
+					}
+				});
+
+		});
+
 		$("#balance1").click(function(){
 			var check = $('#edit_b1').val();
 			if(check === 'false'){
 				var balance1 = $(this).children(0).html();
-				$(this).children(0).html("").append("<input type='text' value='"  + balance1 +"' id='balance1_text' check-avail='true'/> ")
+				var money = balance1.replace(/[A-Z$]/g , '');
+
+				$(this).children(0).html("").append("<input type='text' value='"  + money +"' id='balance1_text' check-avail='true'/> ")
 				.append('<input type="button" id="btn_save" value="Save" />' );
 				
 				$('#edit_b1').val('true');
 			}
 		});
 
-		$('btn_save').live('click', function(){
-			$.ajax({
 
-			});
-		});
 		
 		$("#opent").click(function(){
 			$(".accounts_content").css({"display":"none"});

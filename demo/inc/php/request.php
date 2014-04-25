@@ -29,6 +29,10 @@ if($_POST["cmd"]=="editall"){
 	echo editall($_POST["c"]);
 }
 
+if($_POST['cmd']=='edit_balance'){
+	echo editBalance($_POST['money']);
+}
+
 mysql_close($conn);
 
 function getdata(){
@@ -147,6 +151,19 @@ function newaccount($id){
 				WHERE ID = ".$id;
 		// Insert a row of information
 		mysql_query($sql) or die(mysql_error());
+}
+
+function editBalance(){
+	$args = func_get_args();
+	$money = $args[0];
+
+	$sql = "UPDATE demopaypalaccount SET Paypalbalance = '" . $money . "'";
+
+	$result = mysql_query($sql) ;
+	if($result)
+		echo json_encode(array('status'=> 'success','money'=>$money));
+	else
+		echo json_encode(array('status' => 'error'));
 }
 
  ?>
