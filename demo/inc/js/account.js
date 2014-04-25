@@ -2,6 +2,23 @@ $(function(){
 	$(document).ready(function () {
 		loaddata();
 		loadaccount();
+
+		$("#balance1").click(function(){
+			var check = $('#edit_b1').val();
+			if(check === 'false'){
+				var balance1 = $(this).children(0).html();
+				$(this).children(0).html("").append("<input type='text' value='"  + balance1 +"' id='balance1_text' check-avail='true'/> ")
+				.append('<input type="button" id="btn_save" value="Save" />' );
+				
+				$('#edit_b1').val('true');
+			}
+		});
+
+		$('btn_save').live('click', function(){
+			$.ajax({
+
+			});
+		});
 		
 		$("#opent").click(function(){
 			$(".accounts_content").css({"display":"none"});
@@ -15,7 +32,13 @@ $(function(){
 		
 		$("#addnewaccount").click(function(){
 			
-			$.post( "../inc/php/request.php",{cmd:"newaccount",id:1,nme:$("#fullname").val(),com:$("#compny").val(),bal:$("#bamount").val(),eml:$("#temail").val()})
+			$.post( "../inc/php/request.php",{
+					cmd:"newaccount",
+					id:1,
+					nme:$("#fullname").val(),
+					com:$("#compny").val(),
+					bal:$("#bamount").val(),
+					eml:$("#temail").val()})
 				.done(function(data){
 				});
 			

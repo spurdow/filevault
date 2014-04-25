@@ -1,4 +1,6 @@
 
+
+
 <div class="accounts_content">
 	<div id="top">
     	<div id="top_top">
@@ -10,9 +12,11 @@
             </div>
             <div id="balance1">
            		<h3>$0 CAD</h3>
+                <input type="hidden" id="edit_b1" value="false"> 
             </div>
             <div id="balance2">
            	$0 CAD
+
             </div>
             <div id="balance3">
            	$0 CAD
