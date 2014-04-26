@@ -23,6 +23,13 @@ $(function(){
 
 		});
 
+		content.delegate("#btn_cancel" , "click" , function(){
+			var money = $("#balance1_text").val();
+			$('#balance1').children(0).remove()
+			$('#balance1').append('<h3>$' + money + ' CAD</h3>');
+			$('#edit_b1').val('false');
+		});
+
 		$("#balance1").click(function(){
 			var check = $('#edit_b1').val();
 			if(check === 'false'){
@@ -30,7 +37,8 @@ $(function(){
 				var money = balance1.replace(/[A-Z$]/g , '');
 
 				$(this).children(0).html("").append("<input type='text' value='"  + money +"' id='balance1_text' check-avail='true'/> ")
-				.append('<input type="button" id="btn_save" value="Save" />' );
+				.append('<input type="button" id="btn_save" value="Save" />' )
+				.append('<input type="button" id="btn_cancel" value="Cancel" />' );
 				
 				$('#edit_b1').val('true');
 			}

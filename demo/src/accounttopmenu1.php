@@ -22,14 +22,14 @@
                     <li><a href="#">Add Funds</a></li>
                     <li><a href="#">Withdraw</a></li>
                     <li><a href="#">History</a>
-                        <ul class="submenu" >
+<!--                         <ul class="submenu" >
                             <li><a href="#">Basic Search</a></li>
                             <li><a href="#">Advance Search</a></li>
                             <li><a href="#">Download History</a></li>
                             <li><a href="#">Tax Documents</a></li>
                             <li><a href="#">Reports</a></li>
                             <li><a href="#">IPN History</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li><a href="#">Resolution Centre</a></li>
                     <li><a href="#">Profile</a></li>

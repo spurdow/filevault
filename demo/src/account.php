@@ -3,6 +3,9 @@
   if(!isset($_SESSION['name']) || !isset($_SESSION['pass'])){
 		header("location: ../");
 	}
+
+
+  
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -22,7 +25,7 @@
 <body>
 	<div class="container">
     	<?php include 'accounttopmenu1.php'; ?>
-        <?php include 'account_content.php'; ?>
+        <?php include 'contents.php'; ?>
         <?php include 'footer2.php'; ?>
     </div>
 </body>
