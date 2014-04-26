@@ -1,10 +1,11 @@
 <?php
+
   session_start();
   if(!isset($_SESSION['name']) || !isset($_SESSION['pass'])){
 		header("location: ../");
 	}
 
-
+  include('../inc/php/server_commands.php');
   
 ?>
 

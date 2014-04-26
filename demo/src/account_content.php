@@ -1,26 +1,26 @@
 
 
-
+<?php $account = getBalance(); ?>
 <div class="accounts_content">
     <input type="hidden" id="edit_b1" value="false"> 
 	<div id="top">
     	<div id="top_top">
             <div id="name">
-            	<h2>Shane Harder-Toews</h2>
+            	<h2><?php echo $account['FullName']; ?></h2>
             </div>
             <div id="company">
            	Create Convert Media Ltd | Account Type: Business | Status: <a href=""> Verified </a>
             </div>
             <div id="balance1">
-           		<h3>$0 CAD</h3>
+           		<h3>$<?php echo $account['Paypalbalance'] ?> CAD</h3>
                 
             </div>
             <div id="balance2">
-           	$0 CAD
+           	$<?php echo $account['Paypalbalance'] ?> CAD
 
             </div>
             <div id="balance3">
-           	$0 CAD
+           	$<?php echo $account['Paypalbalance'] ?> CAD
             </div>
         </div>
         <div id="top_mid">
