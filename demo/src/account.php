@@ -13,9 +13,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <!-- <link rel="stylesheet" type="text/css" href="../thms/css/pageSalsa.css" /> -->
     <link rel="stylesheet" type="text/css" href="../thms/css/paypalaccounts.css" />
-    <link rel="stylesheet" type="text/css" href="../thms/css/accountcontent.css" />
-    <link rel="stylesheet" type="text/css" href="../thms/css/topmenu.css" />
+    <link rel="stylesheet" type="text/css" href="../thms/css/global.css" />
+<!--     <link rel="stylesheet" type="text/css" href="../thms/css/accountcontent.css" />
+    <link rel="stylesheet" type="text/css" href="../thms/css/topmenu.css" /> -->
+  
+   
+    
+
     <script type="text/javascript" src="../inc/js/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="../inc/js/account.js"></script>
     <script type="text/javascript" src="../inc/js/topmenu.js"></script>
